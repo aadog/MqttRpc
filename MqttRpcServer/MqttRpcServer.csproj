@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+	  <VersionPrefix>1.0.1</VersionPrefix>
+	  <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MqttRpcCommon\MqttRpcCommon.csproj" />
+    <PackageReference Include="MqttRpcCommon" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
