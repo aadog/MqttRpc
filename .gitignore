@@ -1,0 +1,10 @@
+.vs/
+ConsoleApp1/bin
+ConsoleApp1/obj
+MqttRpcClient/bin
+MqttRpcClient/obj
+MqttRpcCommon/bin
+MqttRpcCommon/obj
+MqttRpcServer/bin
+MqttRpcServer/obj
+TestResults/
